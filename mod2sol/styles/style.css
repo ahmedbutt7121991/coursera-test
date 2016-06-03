@@ -1,0 +1,43 @@
+h1 {
+  margin-bottom: 30px;
+  font-size: 375%;
+  font-family:Cooper Black ;
+  text-align: center;
+}
+
+section{
+  border: 1px solid black;
+  background-color: #d8bfd8;
+  width: 95%;
+  height: 200px;
+  margin-left: 10px; 
+  margin-right: 5px; 
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+  position:relative;
+  clear:both;
+}
+
+h2{
+	border: 1px solid black;
+	font-family: Footlight MT Light;
+	font-size: 120%;
+  	color: white;
+  	float: right;
+  	width: 40%;
+  	height: 40px;
+  	text-align: center;
+  	padding: 10px;
+}
+
+p{
+	background-color: #d8bfd8;
+	font-family: Britannic;
+	font-size: 140%;
+  	color: black;
+  	width: 100%;
+  	height: 158px;
+  	clear: right;
+  	padding: 10px;
+}
