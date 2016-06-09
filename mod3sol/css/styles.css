@@ -1,0 +1,21 @@
+body{
+		font-size: 16px;
+		color:#fff;
+		background-color: #055910;
+		font-family: 'Oxygen', sans-serif;
+		padding-top: 150px;
+}
+
+/**HEADER**/
+#header-nav{
+	background-color: #d0f0c0;
+	border-radius: 0;
+	border: 0;
+}
+
+#logo-img{
+	background: url('BMW.png') no-repeat;
+	width: 150px;
+	height: 150px;
+	margin: 10px 15px 10px 0;
+}
