@@ -3,7 +3,6 @@ body{
 		color:#fff;
 		background-color: #055910;
 		font-family: 'Oxygen', sans-serif;
-		padding-top: 150px;
 }
 
 /**HEADER**/
@@ -13,7 +12,7 @@ body{
 	border: 0;
 	clear:left;
 }
-
+/**NAV BRA BRAND & LIST**/
 .navbar-brand{
 	padding-top: 25px;
 }
@@ -68,12 +67,12 @@ body{
 
 #phone a{
 	text-align: center;
-	padding-right: 15px;
+	padding-bottom: 0;
 }
 
 #phone span{
 	text-align: center;
-	padding-right: 15px;
+	padding-bottom: 0;
 }
 
 
@@ -90,4 +89,135 @@ body{
 .navbar-header button.navbar-toggle{
 	clear:both;
 	margin-top: -30px;
+}
+/**NAVBAR BRAND , LIST & HEADER ENDS**/
+
+/**HEADING OF THE PAGE**/
+.container-fluid{
+		/**background-color: #d0f0c0;**/
+		color:  #d0f0c0;
+		display: block;
+		font-family: 'Oxygen', sans-serif;
+	}
+/**HEADING OF THE PAGE  ENDS**/
+
+/**MAIN CONTENT**/
+section{
+	margin-top: 20px;
+  	border: 1px solid #a20932;
+  	background-color: #a20932;
+  	color: #a20932;
+  	position:relative;
+}
+
+h3{
+	border: 1px solid black;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 120%;
+	background-color: #d0f0c0;
+  	color:  #055910;
+  	font-weight: bold;
+  	width: 100%;
+  	height: 40px;
+  	text-align: center;
+  	padding: 10px;
+}
+
+a:link, a:visited {text-decoration: none;  color: white;}
+a:hover{background: white; color: black; text-decoration: none;}
+
+.row p{
+	background-color: #d0f0c0; /**#d8bfd8**/
+	font-family: 'Oxygen', sans-serif;
+	font-size: 140%;
+  	color: black;
+  	width: 100%;
+  	clear: both;
+  	padding: 10px;
+}
+
+.row p a{
+	font-family: 'Oxygen', sans-serif;
+	font-size: 100%;
+	color: #a20932;
+	text-transform: uppercase;
+}
+
+#back-to-top{
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+.row{
+	width: 100%;
+	padding-left: 25px;
+}
+/**MAIN CONTENT ENDS**/
+
+
+/**********DESKTOP VERSION***********/
+
+@media(min-width: 992px){
+
+}
+
+/**********TABLET VERSION***********/
+
+@media(min-width: 768px) and (max-width: 991px){
+
+}
+
+/**********MOBILE VERSION***********/
+
+@media(max-width: 767px){
+	/*HEADER*/
+	.navbar-brand{
+		padding-top: 10px;
+		height: 80px;
+	}
+	.navbar-brand h1{
+		padding-top: 10px;
+		font-size: 6vw;
+	}
+	.navbar-brand p span{
+		font-size: 1em;
+		margin-top: 12px;
+	}
+	#collapsable-nav a{
+		font-size: 1.2em;
+	}	
+	#collapsable-nav a span{
+		font-size: 1em;
+		margin-right: 5px;
+	}
+
+/** CALL BUTTON**/
+
+#call-btn > a{
+	background-color:  #d0f0c0;
+	color:  #a20932;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 1.5em;
+	display: block;
+	margin: 0 20px;
+	padding: 10px;
+	border: 2px solid #a20932;
+}
+
+#xs-deliver{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: .7em;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+}
+/** CALL BUTTON ENDS**/
+
+/**HEADING OF THE PAGE**/
+.container-fluid{
+	margin: 0 20px;
+	padding: 10px;
+	/**border: 2px solid #a20932;**/
+	}
+/**HEADING OF THE PAGE  ENDS**/
 }
