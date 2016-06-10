@@ -11,11 +11,83 @@ body{
 	background-color: #d0f0c0;
 	border-radius: 0;
 	border: 0;
+	clear:left;
 }
 
-#logo-img{
-	background: url('BMW.png') no-repeat;
-	width: 150px;
-	height: 150px;
-	margin: 10px 15px 10px 0;
+.navbar-brand{
+	padding-top: 25px;
+}
+
+.navbar-brand h1{
+	font-family: 'Oxygen', sans-serif;
+	color: #a20932;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+.navbar-brand p{
+	color: #ff6666;
+	text-transform: uppercase;
+	font-size: .7em;
+	margin-top: 15px;
+}
+
+.navbar-brand p span{
+	vertical-align: middle;
+}
+
+#navbar-list{
+	margin-top: 10px;
+}
+
+#navbar-list a{
+	color: #055910;
+	text-align: center;
+}
+
+#navbar-list a:hover{
+	background-color: #18f496;
+}
+
+#navbar-list a span{
+	font-size: 1.8em;
+}
+
+#phone{
+	margin-top: 2px;
+}
+
+#phone a{
+	text-align: center;
+	padding-right: 15px;
+}
+
+#phone span{
+	text-align: center;
+	padding-right: 15px;
+}
+
+
+#phone div{
+	color: #a20932;
+	text-align: right;
+	padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #a20932;
+}
+
+.navbar-header button.navbar-toggle{
+	clear:both;
+	margin-top: -30px;
 }
